@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 // Reusable Pricing Section Component
 function PricingSection() {
   return (
-    <div className="mt-12 mb-8">
+    <div className="mt-12 mb-8 h-48 w-72 sm:h-32 sm:w-48 md:h-40 md:w-64">
       <p className="text-[#ff0000] text-5xl font-bold mb-8">
         ACTUAL COST : ₹ 999/-
       </p>
@@ -173,18 +173,6 @@ export default function LandingPage() {
           <PricingSection />
         </main>
       </div>
-      <style>
-        {`
-          /* Responsive Button Styles */
-          @media (max-width: 768px) {
-            .bg-[#ff4d4d] {
-              width: 100%; /* Make the button full width */
-              padding: 10px; /* Adjust padding for mobile */
-              font-size: 1.5rem; /* Adjust font size for better readability */
-            }
-          }
-        `}
-      </style>
     </div>
   )
 }
