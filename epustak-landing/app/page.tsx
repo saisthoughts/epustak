@@ -152,7 +152,7 @@ export default function LandingPage() {
           {/* Video Section */}
           <div className="mt-16">
             <h2 className="text-4xl font-bold mb-8">
-              <span className="text-[#ff0066]">800+ किताबें</span> का गूगल ड्राइव में DEMO
+              <span className="text-[#ff0066]">800+ किताबों</span> का गूगल ड्राइव में DEMO
             </h2>
             
             <div className="flex flex-col items-center gap-8">
