@@ -64,9 +64,9 @@ export default function LandingPage() {
   const BOOK_IMAGES = ['1.webp', '2.webp', '3.webp', '4.webp', '5.jpg']
 
   return (
-    <div className="min-h-screen flex flex-col items-center px-4">
+    <div className="min-h-screen flex flex-col items-center">
       {/* Black Section */}
-      <div className="w-full bg-black text-white py-8">
+      <div className="w-full bg-black text-white py-8 px-4">
         <main className="max-w-screen-lg w-full mx-auto text-center">
           {/* Hero Section */}
           <h1 className="text-3xl md:text-5xl font-extrabold mb-4 text-[#FFD700] leading-tight">
