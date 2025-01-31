@@ -8,13 +8,13 @@ import { Button } from "@/components/ui/button"
 // Reusable Pricing Section Component
 function PricingSection() {
   return (
-    <div className="mt-12 mb-8 h-48 w-72 sm:h-32 sm:w-48 md:h-40 md:w-64">
-      <p className="text-[#ff0000] text-5xl font-bold mb-8">
+    <div className="mt-12 mb-8">
+      <p className="text-[#ff0000] text-3xl font-bold mb-8">
         ACTUAL COST : ₹ 999/-
       </p>
       <Button 
         onClick={() => window.open('https://rzp.io/rzp/obLdjIgb', '_blank')}
-        className="bg-[#ff4d4d] hover:bg-red-600 text-white text-3xl px-12 py-6 rounded-full shadow-lg transform hover:scale-105 transition-transform"
+        className="bg-[#ff4d4d] hover:bg-red-600 text-white text-2xl px-12 py-6 rounded-full shadow-lg transform hover:scale-105 transition-transform"
       >
         JUST RS.99/- ONLY
       </Button>
@@ -140,8 +140,8 @@ export default function LandingPage() {
                   key={index}
                   src={`/assets/${img}`}
                   alt={`Book ${index + 1}`}
-                  width={200}
-                  height={300}
+                  width={300}
+                  height={400}
                   className="rounded-lg shadow-lg hover:scale-105 transition-transform"
                   loading={index > 2 ? "lazy" : "eager"}
                 />
@@ -173,6 +173,7 @@ export default function LandingPage() {
           <PricingSection />
         </main>
       </div>
+
     </div>
   )
 }
