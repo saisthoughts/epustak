@@ -173,6 +173,18 @@ export default function LandingPage() {
           <PricingSection />
         </main>
       </div>
+      <style>
+        {`
+          /* Responsive Button Styles */
+          @media (max-width: 768px) {
+            .bg-[#ff4d4d] {
+              width: 100%; /* Make the button full width */
+              padding: 10px; /* Adjust padding for mobile */
+              font-size: 1.5rem; /* Adjust font size for better readability */
+            }
+          }
+        `}
+      </style>
     </div>
   )
 }
