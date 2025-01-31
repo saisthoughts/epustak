@@ -58,7 +58,7 @@ export default function LandingPage() {
     { id: 7, text: "All Hindi eBooks" },
     { id: 8, text: "Downloadable Files" },
     { id: 9, text: "High Quality eBooks" },
-    { id: 10, text: "Neat and clean files" },
+    // { id: 10, text: "Neat and clean files" },
   ]
 
   const BOOK_IMAGES = ['1.webp', '2.webp', '3.webp', '4.webp', '5.jpg']
